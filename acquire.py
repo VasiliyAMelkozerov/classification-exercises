@@ -58,6 +58,8 @@ def get_iris_data():
         df.to_csv('iris_df.csv')
     return df
 
+#Telco data
+
 def new_telco_data():
     #Let's pull in telco data, ALL of it.
     sql_query = """
